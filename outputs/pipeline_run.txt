@@ -1,0 +1,35 @@
+[
+  {
+    "dataset": "arrivals",
+    "raw_rows": 25750,
+    "clean_rows": 25000,
+    "duplicates_removed": 750,
+    "quality_flags": {
+      "OK": 25000
+    }
+  },
+  {
+    "dataset": "master",
+    "raw_rows": 60,
+    "clean_rows": 57
+  },
+  {
+    "dataset": "prices",
+    "raw_rows": 12000,
+    "clean_rows": 12000,
+    "missing_mandi_after_normalization": 1235
+  },
+  {
+    "dataset": "transport",
+    "raw_rows": 10400,
+    "clean_rows": 10000,
+    "duplicates_removed": 400,
+    "negative_reported_transit": 539
+  },
+  {
+    "dataset": "weather",
+    "raw_rows": 15000,
+    "clean_rows": 15000,
+    "daily_rows": 272
+  }
+]
